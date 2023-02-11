@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(https://codd.cs.gsu.edu/~lhenry23/Web/HW/Assign02/background.png);
+}
+
+.head {
+  background-image: url(https://codd.cs.gsu.edu/~lhenry23/Web/HW/Assign02/bannerbackground.png);
+}
+
+.main {
+  font-size: 8px;
+  font-family: Verdana, Tahoma, sans-serif;
+  position: relative;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 550fr 250fr;
+}
+
+header {
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Tahoma, Verdana, sans-serif;
+  text-align: center;
+}
+
+.main main {
+  margin: 0 auto;
+  width: 800px;
+  border: 4px solid gray;
+}
+
+.main-part-left-top {
+  background-image: url(./rottenbackground.png);
+  display: flex;
+}
+
+.main-part-left-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 94%;
+  margin: 2% auto 0 auto;
+  column-gap: 2%;
+}
+
+.main-part-left-bottom div div:first-child {
+  font-size: 8px;
+  font-weight: bold;
+  background-color: #e1d697;
+  border: 2px solid gray;
+  padding: 8px;
+}
+
+.main-part-left-bottom div div img {
+  float: left;
+  margin-right: 5px;
+  clear: both;
+}
+
+.critic {
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+.critic div {
+  font-style: italic;
+}
+.review-percent {
+  font-size: 48px;
+  color: red;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.review-number {
+  margin-bottom: 8px;
+  font-size: 8px;
+  color: white;
+  align-self: flex-end;
+}
+
+.critic {
+  display: flex;
+  align-items: center;
+}
+
+.main-part-right {
+  background-color: #a2b964;
+  font-size: 8px;
+  font-family: Arial;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  gap: 1em;
+}
+
+.flex dt {
+  font-weight: bold;
+}
+
+.flex dd ul {
+  list-style-type: none;
+  margin-left: -8px;
+  margin-top: -6px;
+}
+
+.footer {
+  background-color: #a2b964;
+  padding-top: 5px;
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.last-image-html {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+}
+
+.last-image-css {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.special-critic{
+  height: 24px;
+}
